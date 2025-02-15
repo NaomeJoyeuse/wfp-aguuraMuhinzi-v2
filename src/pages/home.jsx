@@ -320,7 +320,7 @@ const HomePage = () => {
             {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center h-24">
                 <img 
-                  src={`/api/placeholder/150/80`} 
+                  src={`images/wfp-logo.png`} 
                   alt={`Partner ${index}`} 
                   className="max-h-12 max-w-full opacity-60 hover:opacity-100 transition duration-300"
                 />
@@ -383,7 +383,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Contact Section - Moved above Team section */}
+      {/* Contact Section  */}
       <section className="py-24 bg-green-50 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-1/4 h-full opacity-10">
           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full h-full fill-green-600">
@@ -403,7 +403,7 @@ const HomePage = () => {
               {/* Map and Contact Info */}
               <div className="relative">
                 <div className="h-full">
-                  <img src="/api/placeholder/600/600" alt="Map" className="w-full h-full object-cover" />
+                  <img src="images/map-wfp.png" alt="Map" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute inset-0 bg-green-900 bg-opacity-70 p-10 flex flex-col justify-center text-white">
                   <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
@@ -499,7 +499,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Meet Our Team - Moved below Contact */}
+      {/* Meet Our Team */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
